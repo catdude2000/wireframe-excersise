@@ -1,3 +1,42 @@
-.navBar {
+header{
+  width:fit-content;
+}
+nav {
+  background-color: grey;
   height: 70px;
+  width: 200px;
+  text-align: center;
+  line-height: 4.5;
+}
+.firButton{
+  margin-left: 260px;
+  margin-bottom: 30px;
+}
+button{
+  margin-left: 175px;
+}
+main{
+  height: 450px;
+  width: 960px;
+  background-color: grey;
+  text-align: center;
+  line-height: 30;
+}
+div{
+  display: inline-flex;
+  justify-content: space-evenly;
+  height: 375px;
+  width: 300px;
+  margin-top: 30px;
+  margin-right: 30px;
+  background-color: grey;
+}
+.sec
+.thirdSub{
+  /* display: flex; */
+  justify-content: flex-end;
+  margin-left: 30px;
+}
+section{
+  width: fit-content;
 }
