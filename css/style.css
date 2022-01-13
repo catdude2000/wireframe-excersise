@@ -45,6 +45,10 @@ section{
 footer{
   width: 960px;
 }
+h1{
+  font-size: larger;
+  margin-left: 70%;
+}
 article{
   float: right;
   overflow: auto;
@@ -58,8 +62,8 @@ figure{
 }
 button{
   top:150%;
-       left:52%;
-       width:150px;
-       height:35px;
-       position: absolute;
+  left:52%;
+  width:150px;
+  height:35px;
+  position: absolute;
 }
