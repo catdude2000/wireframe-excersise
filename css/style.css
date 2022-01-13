@@ -59,3 +59,12 @@ figure{
   /* flex: ; */
   /* margin-right: 500px; */
 }
+button{
+  top:150%;
+       left:52%;
+       width:150px;
+       height:35px;
+       position: absolute;
+       /* z-index: 2; */
+       /* background: orange */
+}
