@@ -2,7 +2,10 @@ body{
   width: 1000px;
   margin: 0 auto;
 }
-
+li{
+  display: inline-block;
+  
+}
 .headDiv{
   width: 800px;
   height: 100px;
@@ -25,7 +28,7 @@ div{
 }
 section{
   display: flex;
-  
+  width: 990px;
 }
 .divOne{
   flex: 1;
@@ -35,29 +38,23 @@ section{
 }
 .divTwo{
   flex: 1;
-  /* margin-right: 200px; */
 }
 .divThree{
-  /* height: 400px; */
   flex: 1;
-  /* float: right; */
 }
 footer{
-  /* display: flex; */
+  width: 960px;
 }
 article{
   float: right;
   overflow: auto;
   width: 450px;
-  height: 300px;
-  /* flex: 2; */
+  height: 320px;
 }
 figure{
   background-image: url(/images/480x400.png);
   background-repeat: no-repeat;
   height: 410px;
-  /* flex: ; */
-  /* margin-right: 500px; */
 }
 button{
   top:150%;
@@ -65,6 +62,4 @@ button{
        width:150px;
        height:35px;
        position: absolute;
-       /* z-index: 2; */
-       /* background: orange */
 }
